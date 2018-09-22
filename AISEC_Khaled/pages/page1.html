@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../styles/style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="header">
+      <h1 style="margin:0 0 10px 0">HEADER</h1>
+    </div>
+  </div>
+    <div class="listContainer">
+      <ul class="mainList">
+        <div class="listDiv">
+          <li><h2 class="listHead">HOME</h2></li>
+        </div>
+        <div class="listDiv">
+          <li><h2 class="listHead">OPPORTUNITIES</h2></li>
+        </div>
+        <div class="listDiv">
+          <li><h2 class="listHead">YOUR APPLICATIONS</h2></li>
+        </div>
+        <div class="listDiv">
+          <li><h2 class="listHead" id="lastHead">EP ANALYTICS</h2></li>
+        </div>
+      </ul>
+    </div>
+    <div class="homeContent contentContainer">
+      <h1>HOME Content</h1>
+    </div>
+    <div class="oppContent contentContainer hide">
+      <ul>
+        <li>Your Templates</li>
+        <li>Guidelines</li>
+        <li>Drafts</li>
+        <li>Opened</li>
+        <li>Unmatched</li>
+      </ul>
+    </div>
+    <div class="appContent contentContainer hide">
+      <table style="width:70%">
+        <tr>
+          <th>Name</th>
+          <th>Opportunity</th>
+          <th>EP ID</th>
+        </tr>
+      </table>
+    </div>
+    <div class="epContent contentContainer hide">
+      <form action="/action_page.php" method="get" id="form1">
+  EP ID: <input type="text" name="EPID" onkeypress="return isNumberKey(event)"><br>
+</form>
+
+<button type="submit" form="form1" value="Submit">Submit</button>
+    </div>
+    <script type="text/javascript"src="../scripts/script.js"></script>
+  </body>
+</html>
